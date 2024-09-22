@@ -117,23 +117,23 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
-.link {
-	margin: 8% 0;
-	width: 40%;
+.theLink {
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.theLink .link {
+  display: inline-block;
   background-color: #03EF62;
-  border-radius: 25px; /* Makes the shape rounded */
-  padding: 10px 20px; /* Adjusts padding for the desired size */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  color: #fff;
+  padding: 0.5em 1.5em;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  font-weight: bold;
 }
 
-.link a {
-  color: white; /* Text color */
-  text-decoration: none; /* Removes underline */
-  font-weight: bold; /* Makes text bold */
-}
-
-.link:hover {
-  background-color: #02C651; /* Darker shade for hover effect */
+.theLink .link:hover {
+  background-color: #02c751; /* Darker shade of the original color */
 }
 
 
